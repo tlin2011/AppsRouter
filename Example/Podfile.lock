@@ -1,0 +1,16 @@
+PODS:
+  - AppsRouterLib (0.1.0)
+
+DEPENDENCIES:
+  - AppsRouterLib (from `../`)
+
+EXTERNAL SOURCES:
+  AppsRouterLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppsRouterLib: 25161640998fc1a97b3759680f20ec7c20b982a4
+
+PODFILE CHECKSUM: 82738010f01d7c4bde1d43eb1fb22897efbf5796
+
+COCOAPODS: 1.5.0

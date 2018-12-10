@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AppsRouterLib
 
 [![CI Status](https://img.shields.io/travis/tlin2011/AppsRouterLib.svg?style=flat)](https://travis-ci.org/tlin2011/AppsRouterLib)
@@ -27,3 +28,7 @@ tlin2011, tlin2011@163.com
 ## License
 
 AppsRouterLib is available under the MIT license. See the LICENSE file for more info.
+=======
+# AppsRouter
+Self Router
+>>>>>>> e054386aba728bf94c6bacaea98bb83f85c7d063

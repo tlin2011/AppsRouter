@@ -58,13 +58,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		765CF0986F072CB548A03A5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		765CF0986F072CB548A03A5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		785AE6D59D2564191340F3FF /* Pods_AppsRouterLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppsRouterLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1437F25F253431AFDCBA8DF /* Pods-AppsRouterLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppsRouterLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppsRouterLib_Example/Pods-AppsRouterLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AABA65A6BAAA5F20D85869E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AABA65A6BAAA5F20D85869E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C2DF75A489366D63BC0DCAE3 /* Pods-AppsRouterLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppsRouterLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppsRouterLib_Example/Pods-AppsRouterLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C2F9CED278134BA2088F18BF /* AppsRouterLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AppsRouterLib.podspec; path = ../AppsRouterLib.podspec; sourceTree = "<group>"; };
+		C2F9CED278134BA2088F18BF /* AppsRouterLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AppsRouterLib.podspec; path = ../AppsRouterLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D310E72E57A3541BCCB5F3EA /* Pods-AppsRouterLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppsRouterLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppsRouterLib_Tests/Pods-AppsRouterLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F235BC0177C102155E790117 /* Pods_AppsRouterLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppsRouterLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -226,7 +226,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				16133DEA67F86DB873A9C62B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,24 +294,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		16133DEA67F86DB873A9C62B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AppsRouterLib_Tests/Pods-AppsRouterLib_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppsRouterLib_Tests/Pods-AppsRouterLib_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2826326BFA3C1984260FAB0E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

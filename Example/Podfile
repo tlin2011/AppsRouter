@@ -8,6 +8,6 @@ target 'AppsRouterLib_Example' do
   target 'AppsRouterLib_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+#    pod 'FBSnapshotTestCase'
   end
 end
